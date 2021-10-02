@@ -1,0 +1,13 @@
+.place {
+    box-sizing: border-box;
+    padding-bottom: 80px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+    grid-template-rows: repeat(2, max-width);
+    gap: 40px 48px;
+}
+
+.place:last-child {
+    padding-bottom: 0;
+}
