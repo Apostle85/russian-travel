@@ -2,7 +2,7 @@
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: left;
     box-sizing: content-box;
     padding: 92px 48px 24px;
 }
