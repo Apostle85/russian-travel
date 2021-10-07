@@ -16,4 +16,11 @@
         grid-template-columns: repeat(2, minmax(288px, 1fr));
     }
 }
+
+@media screen and (max-width: 320px) {
+    .place {
+        padding-bottom: 50px;
+        gap: 32px;
+    }
+}
     

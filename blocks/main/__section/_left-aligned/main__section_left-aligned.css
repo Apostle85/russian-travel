@@ -1,0 +1,5 @@
+@media screen and (min-width: 1281px) {
+    .main__section_left-aligned {
+        margin-left: calc(50% - 640px);
+    }    
+}

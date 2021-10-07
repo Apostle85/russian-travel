@@ -3,6 +3,7 @@
     flex-direction: column;
     background-size: cover;
     background-image: url(../../../images/__background.jpg);
+    background-position: center;
     min-height: 740px;
     max-width: 1184px;
     position: relative;
@@ -10,6 +11,7 @@
     width: 100%;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 .cover__background::after {
@@ -19,14 +21,14 @@
     bottom: 0;
     position: absolute;
     content: '';
-    background-color: #000;
+    background-color: #2A2C2F;
     opacity: 0.3;
     transition: opacity 0.2s ease-in;
     z-index: 1;
 }
 
 .cover__background:hover::after {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 1280px) {

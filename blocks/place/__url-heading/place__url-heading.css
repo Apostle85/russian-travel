@@ -4,14 +4,15 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
+    line-height: 1.7;
     line-height: 1;
     letter-spacing: 2px;
     color: #AAAAAA;
+    text-transform: uppercase;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .place__url-heading {
-        font-size: 12px;
         line-height: 1.0;
     }
 }
