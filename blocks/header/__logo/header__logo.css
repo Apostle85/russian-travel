@@ -5,6 +5,7 @@
 
 @media screen and (max-width: 320px) {
     .header__logo {
-        transform: scale(0.8) translate(-22px, 0);
+        width: 142px;
+        height: 42px;
     }
 }
